@@ -8,7 +8,6 @@ struct Node
   struct Node *Next;
 };
 
-
 void Insert_First(struct Node**,int);
 void Delete_Last(struct Node**);
 void Display_LL(struct Node*);
@@ -42,7 +41,6 @@ void Insert_First(struct Node **First,int Ele)
   return;
 }
 
-
 void Delete_Last(struct Node **First)
 {
    struct Node *Temp = *First;
@@ -73,7 +71,6 @@ void Delete_Last(struct Node **First)
 
    return;
 }
-
 
 void Display_LL(struct Node *First)
 {
