@@ -6,6 +6,7 @@ struct myArr
 	/* data */
 	int total_size;
 	int used_size;
+	int *ptr;
 };
 
 
