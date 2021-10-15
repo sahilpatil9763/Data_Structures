@@ -49,11 +49,17 @@ void setVal(struct myArr *a)
 int main()
 {
 	struct myArr marks;
+	
 	createArr(&marks, 10, 2);
+	
 	printf("We are runnig setVal now\n");
+	
 	setVal(&marks);
+	
 	printf("We are runnig show now\n");
+	
 	show(&marks);
+	
 	getch();
 	return 0;
 }
